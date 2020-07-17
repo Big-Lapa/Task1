@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class RandomServiceImpl implements RandomService {
     @Override
-    public long RandomNumber() {
+    public long randomNumber() {
         Random random = new Random();
         return random.nextLong();
     }

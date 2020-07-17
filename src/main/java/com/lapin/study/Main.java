@@ -14,14 +14,14 @@ public class Main {
         CalculateService calculate = new CalculateServiceImpl();
         PrintService printConsole = new PrintServiceConsoleImpl();
         Strings strings = new Strings();
-        long a = random.RandomNumber();
-        long b = random.RandomNumber();
-        long c = random.RandomNumber();
+        long a = random.randomNumber();
+        long b = random.randomNumber();
+        long c = random.randomNumber();
         String string = strings.getPhrase();
-        long result1 = calculate.CalculateAverageOfThree(a, b, c, 3);
-        long result2 = calculate.CalculateExample(a, b);
-        printConsole.PrintNumbers(result1);
-        printConsole.PrintString(string);
-        printConsole.PrintNumbers(result2);
+        long result1 = calculate.calculateAverageOfThree(a, b, c, 3);
+        long result2 = calculate.calculateExample(a, b);
+        printConsole.printNumbers(result1);
+        printConsole.printString(string);
+        printConsole.printNumbers(result2);
     }
 }

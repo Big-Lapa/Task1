@@ -4,12 +4,12 @@ import com.lapin.study.service.PrintService;
 
 public class PrintServiceConsoleImpl implements PrintService {
     @Override
-    public void PrintString(String string) {
+    public void printString(String string) {
         System.out.println(string);
     }
 
     @Override
-    public void PrintNumbers(Long number) {
+    public void printNumbers(Long number) {
         System.out.println(number);
     }
 }
